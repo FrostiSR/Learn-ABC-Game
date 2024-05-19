@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('../pics/background.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.doks{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 20px;
+  left: 735px;
+  width: 150px;
+  height:150px;
+  }
+  
+  .fiets{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  left: 735px;
+  width: 130px;
+  height:140px;
+  }
+  
+  .zon{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  left: 745px;
+  width: 140px;
+  height:140px;
+  }
+  
+  .duif{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  left: 745px;
+  width: 140px;
+  height:140px;
+  }
+  
+  .taart{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  left: 745px;
+  width: 120px;
+  height:130px;
+  }
+  
+#center-div
+{
+  position: relative;
+  top: 50px;
+  margin: auto;
+  background: #d7d7d7d1;
+  color: #000000ad;
+  border-radius: 3px;
+  width: 55%;
+  box-shadow: 1px 1px 17px 5px;
+  padding: 80px;
+}
+#center-div2
+{
+  position: relative;
+  top: 50px;
+  margin: auto;
+  background: transparent;
+  width: 55%;
+  padding: 80px;
+}
+
+.text{
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: comic sans ms;
+  font-weight: bold;
+  color: #2c61c9;
+}
+
+.text1{
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: comic sans ms;
+  font-weight: bold;
+  color: black;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 35px 170px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+	font-family: comic sans ms;
+	font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #d7d7d7d1; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: #d7d7d7d1; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: #d7d7d7d1; 
+    color: black; 
+    border: 2px solid yellow;
+}
+
+.button3:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.button4 {
+    background-color: #d7d7d7d1;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button4:hover {
+    background-color: #555555;
+    color: white;
+	
+}
+
+#popup {
+	position: absolute;
+	top: 50px;
+	left: 390px;
+	margin: auto;
+    width: 20%;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#popup .popuptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    z-index: 1;
+    
+	
+   
+}
+
+#popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* animatie (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

@@ -1,0 +1,107 @@
+body{
+	background-image: url("wolken.png");
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 330px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 350px;
+  height: 350px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+#wrapper{
+    position: absolute;
+	margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 160px;
+    left: 0;
+    width: 500px;
+    height: 500px;
+	background: transparent;
+}
+
+.logo{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 350px;
+  left: 0;
+  width: 250px;
+  height:250px;
+  
+}
+ 
+.text{
+  position: absolute;
+  margin: auto;
+  top: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  bottom: 92px;
+  font-size: 40px;
+  font-family: comic sans ms;
+  font-weight: bold;
+  color: #2c61c9;
+}
+
+
+.button1 {
+    background-image: url("play.png");
+	background-repeat: no-repeat;
+    background-size: 125px 125px;
+    padding: 62px 62px;
+	position:absolute;
+    transition: .5s ease;
+    top: 280px;
+    left: 106px
+}
+
+.button2 {
+    background-image: url("puzzels.png");
+	background-repeat: no-repeat;
+    background-size: 125px 125px;
+    padding: 62px 62px;
+	position:absolute;
+    transition: .5s ease;
+    top: 280px;
+    left: 270px;
+}
+
+.button3 {
+    background-image: url("quiz.png");
+	background-repeat: no-repeat;
+    background-size: 125px 125px;
+    padding: 62px 62px;
+	position:absolute;
+    transition: .5s ease;
+    top: 430px;
+    left: 106px;
+}
+
+.button4 {
+    background-image: url("opties.png");
+	background-repeat: no-repeat;
+    background-size: 125px 125px;
+    padding: 62px 62px;
+	position:absolute;
+    transition: .5s ease;
+    top: 430px;
+    left: 270px;
+}
+
+
+
